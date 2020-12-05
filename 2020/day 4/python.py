@@ -1,6 +1,3 @@
-from typing import get_origin
-
-
 try:
     with open('input.txt') as file:
         l = file.read().split('\n\n')
